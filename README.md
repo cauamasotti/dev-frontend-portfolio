@@ -1,4 +1,4 @@
-# ☁️ **Portfólio Pessoal — HTML & CSS (Futura expansão para JavaScript e React)**
+#  **Portfólio Pessoal — HTML & CSS (Futura expansão para JavaScript e React)** ☁️
 
 O projeto de portfólio pessoal foi desenvolvido em **HTML + CSS**, com foco em um **design clean, estrutura limpa e visualmente profissional**, preparado para futuras implementações em JavaScript e React.  
 O objetivo principal é registrar meus conhecimentos práticos para fortalecer meu perfil profissional na área da tecnologia.
@@ -21,7 +21,7 @@ Além disso, pretendo expandir o front-end futuramente, adicionando JavaScript e
 | Categoria | Ferramenta / Tecnologia |
 |------------|--------------------------|
 | **Linguagens** | HTML5, CSS3 |
-| **Estilo** | CSS Flexbox, Design Responsivo |
+| **Estilo** | CSS Flexbox, Design Responsivo, Animação e efeitos |
 | **Planejamento Futuro** | JavaScript, React.js, Aplicações de Segurança |
 | **Infraestrutura (Deploy Futuro)** | AWS S3, CloudFront, Route53 |
 | **Controle de Versão** | Git + GitHub |
