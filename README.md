@@ -2,7 +2,7 @@
 
 O projeto de portfólio pessoal foi desenvolvido em **HTML + CSS**, com foco em um **design clean, estrutura limpa e visualmente profissional**, preparado para futuras implementações em JavaScript e React.  
 O objetivo principal é registrar meus conhecimentos práticos para fortalecer meu perfil profissional na área da tecnologia.
-
+<br>
 **Estrutura e Planejamento**
 
 A ideia do projeto começou como uma forma de demonstrar minhas habilidades em AWS, Infraestrutura e Gestão de Projetos.  
@@ -12,6 +12,9 @@ O propósito é realizar o deploy em ambiente de nuvem (AWS) e construir uma inf
 Além disso, pretendo expandir o front-end futuramente, adicionando JavaScript e React, vejo que esse modelo montado pode me trazer ótimas expansões.
 
 > 💡 Este projeto serve como uma prova sólida para mostrar minhas capacidades técnicas e da importância de práticar e colocar os ensinamentos em dia.
+
+<br>
+
 
 **Tecnologias Utilizadas**
 
@@ -24,13 +27,24 @@ Além disso, pretendo expandir o front-end futuramente, adicionando JavaScript e
 | **Controle de Versão** | Git + GitHub |
 | **Editor de Código** | Visual Studio Code |
 
+<br>
 
-⏩ **Sigam as imagens do projeto em diferentes dispositivos:**
+⏩ **Sigam as imagens e link do projeto em diferentes dispositivos:**
+
+<br>
+
+⏩ Link: https://cauamasotti.github.io/dev-frontend-portfolio
+
+<br>
 
 ![Navegador](img/navegador.png)
 ![Notebook](img/notebook.png)
 ![Iphone](img/iphone.png)
 ![Projeto totalmente responsivo](img/responsivo.png)
+
+
+Agradeço a todos que viram até aqui.  
+Abaixo deixo meus contatos para quem quiser trocar uma ideia ou colaborar em novos projetos.
 
 Desenvolvido por: 
 **Cauã Masotti**   
@@ -38,7 +52,7 @@ Desenvolvido por:
 **Conecte-se comigo:**  
 - 🌐 [LinkedIn](https://www.linkedin.com/in/cauamasotti)  
 - 💻 [GitHub](https://github.com/cauamasotti)  
-- ✉️ **E-mail:** masotticaua@gmail.com*
+- ✉️ **E-mail:** masotticaua@gmail.com
 
 
 
