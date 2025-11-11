@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --cor1: #00704A;
+    --cor2: #080808;
+    --cor3: #ffffff;
+    --cor4: #606060;
+}
+
+body {
+    background-color: var(--cor2);
+    color: var(--cor3);
+}
+
+.navegacao {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    padding: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    ;
+    list-style: none;
+    gap: 3rem;
+
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--cor3);
+    font-weight: 500;
+    position: relative;
+    padding: 0.5rem 0;
+}
+
+.menu-link::after {
+    content: '';
+    height: 2px;
+    width: 0%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, var(--cor1), #008C55);
+    transition: width 0.5s ease;
+}
+
+.menu-link:hover::after {
+    width: 100%;
+}
+
+.cabecalho {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 2rem;
+}
+
+.conteudo-texto {
+    max-width: 700px;
+    text-align: left;
+}
+
+.foto-perfil {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    object-fit: cover;
+    order: 2;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.foto-perfil:hover {
+    transform: translate(-10px) scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 112, 74, 0.6);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-align: left;
+    letter-spacing: -0.02em;
+}
+
+.sub-titulo {
+    font-size: 1.2rem;
+    color: var(--cor4);
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.btn-cv {
+    display: inline-block;
+    margin-top: 1.2rem;
+    padding: 0.9rem;
+    background: linear-gradient(90deg, #00704A, #008C55);
+    color: var(--cor3);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-cv::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: left 0.5s ease;
+}
+
+.btn-cv::before {
+    left: 100%;
+}
+
+.btn-cv:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 112, 74, 0.5);
+}
+
+.icon-cv {
+    margin-left: 0.1rem;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    filter: brightness(0) invert(1);
+    /* usei o filter pois o icon é png */
+    position: relative;
+    top: -2px;
+    /* tive que fazer uns tramites para alinhar o icon */
+}
+
+@media screen and (max-width: 1085px) {
+    .cabecalho {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .foto-perfil {
+        width: 250px;
+        height: 250px;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .sub-titulo {
+        font-size: 15px;
+        text-align: center;
+        line-height: 1.2rem;
+
+    }
+
+    .btn-cv {
+        display: block;
+        margin: 2rem auto 0 auto;
+        text-align: center;
+        width: 300px; 
+    }
+}
