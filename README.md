@@ -1,7 +1,7 @@
-#  **Portfólio Pessoal — HTML & CSS (Futura expansão para JavaScript e React)** ☁️
+#  **Portfólio Pessoal — HTML & CSS (ESTUDANDO PARA FAZER DEPLOY AWS)** ☁️
 
-O projeto de portfólio pessoal foi desenvolvido em **HTML + CSS**, com foco em um **design clean, estrutura limpa e visualmente profissional**, preparado para futuras implementações em JavaScript e React.  
-O objetivo principal é registrar meus conhecimentos práticos para fortalecer meu perfil profissional na área da tecnologia.
+O projeto de portfólio pessoal foi desenvolvido em **HTML + CSS**, com foco em um **estrutura limpa e visual profissional**.
+O objetivo principal é registrar meus conhecimentos práticos para preenhcer meu perfil.
 
 <br>
 
@@ -10,8 +10,7 @@ O objetivo principal é registrar meus conhecimentos práticos para fortalecer m
 A ideia do projeto começou como uma forma de demonstrar minhas habilidades em AWS, Infraestrutura e Gestão de Projetos.  
 Durante o processo, optei por criar toda a aplicação focando no meu perfil e no meu estilo, simulando um planejamento da criação de uma startup: planejamento, desenvolvimento, segurança, estrutura de redes e deploy.
 
-O propósito é realizar o deploy em ambiente de nuvem (AWS) e construir uma infraestrutura estável e segura com o funcionamento no ar.  
-Além disso, pretendo expandir o front-end futuramente, adicionando JavaScript e React, vejo que esse modelo montado pode me trazer ótimas expansões.
+O propósito é realizar o deploy em ambiente de nuvem (AWS) e construir uma infraestrutura segura com o funcionamento no ar. Vejo que esse modelo montado pode me trazer uma simulação de conhecimento.
 
 <br>
 
@@ -26,7 +25,7 @@ Além disso, pretendo expandir o front-end futuramente, adicionando JavaScript e
 |------------|--------------------------|
 | **Linguagens** | HTML5, CSS3 |
 | **Estilo** | CSS Flexbox, Design Responsivo, Animação e efeitos |
-| **Planejamento Futuro** | JavaScript, React.js, Aplicações de Segurança |
+| **Planejamento Futuro** | Aplicações de Segurança e Redes |
 | **Infraestrutura (Deploy Futuro)** | AWS |
 | **Controle de Versão** | Git + GitHub |
 | **Editor de Código** | Visual Studio Code |
